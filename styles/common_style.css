@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Inika";
+  src: url("../Inika-Regular.ttf");
+}
+
+.wrapper {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("../png/back.png");
+  background-size: cover;
+  height: 100vh;
+
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  color: black;
+  border-radius: 50%;
+  border: 10px solid transparent;
+  background: linear-gradient(#ffffff 0%, #f6d47b 0.01%, #ffffff 100%)
+      padding-box,
+    linear-gradient(#ff9797 0%, #f6d47b 0.01%, #744500 100%) border-box;
+}
+
+.balance_field {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 9px;
+}
+
+.balance_field img,
+.bet_amount_cont img {
+  max-height: 80%;
+  margin-right: 5px;
+}
+
+.balance {
+  transition: color 0.5s ease;
+}
+
+.balance.anim {
+  color: green;
+}
+
+.home {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  height: 22px;
+  width: 30px;
+}
+
+.home img {
+  max-height: 100%;
+  max-width: 100%;
+}

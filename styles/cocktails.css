@@ -1,0 +1,57 @@
+.bar {
+  position: absolute;
+  left: 5%;
+  width: 90%;
+}
+
+.top {
+  bottom: 50%;
+}
+
+.bottom {
+  bottom: 2%;
+}
+
+.cocktails {
+  position: absolute;
+  left: 10%;
+
+  width: 80%;
+  height: 40%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  height: 100%;
+}
+
+.name {
+  height: 20%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
+}
+
+.cocktails img {
+  height: 70%;
+}
+
+.unknown {
+  font-size: 72px;
+  -webkit-text-stroke: black 0.1px;
+}
+
+@media screen and (min-height: 600px) {
+  .unknown {
+    font-size: 114px;
+  }
+}
+
+@media screen and (min-height: 768px) {
+  .name {
+    font-size: 28px;
+  }
+}

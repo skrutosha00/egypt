@@ -1,0 +1,40 @@
+body {
+  background-image: url("../png/back_dark.png");
+}
+
+.text {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 60%;
+  height: 80%;
+  text-align: left;
+  font-size: 2vw;
+  font-weight: 400;
+  overflow: scroll;
+}
+
+.right {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+
+  width: 20%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.right img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.button {
+  font-size: 3vw;
+  width: calc(100% - 20px);
+  height: 20%;
+  position: absolute;
+  bottom: 10%;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, width=device-width, viewport-fit=cover"
+    />
+    <link rel="shortcut icon" href="./png/icon.png" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/game.css" />
+    <title>Simple Fortune</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <a href="./main.html" class="home">
+        <img src="../png/home.png" alt="home" />
+      </a>
+
+      <div class="table_cont one">
+        <img src="../png/pers_1.png" alt="pers_1" class="pers" />
+        <img src="../png/prize_1.png" alt="prize" data-num="0" class="prize" />
+        <img src="../png/table.png" alt="table" class="table" />
+      </div>
+
+      <div class="table_cont two">
+        <img src="../png/pers_2.png" alt="pers_2" class="pers" />
+        <img src="../png/prize_2.png" alt="prize" data-num="1" class="prize" />
+        <img src="../png/table.png" alt="table" class="table" />
+      </div>
+
+      <div class="table_cont three">
+        <img src="../png/pers_3.png" alt="pers_3" class="pers" />
+        <img src="../png/prize_3.png" alt="prize" data-num="2" class="prize" />
+        <img src="../png/table.png" alt="table" class="table" />
+      </div>
+
+      <div class="table_cont four">
+        <img src="../png/pers_4.png" alt="pers_4" class="pers" />
+        <img src="../png/prize_1.png" alt="prize" data-num="3" class="prize" />
+        <img src="../png/table.png" alt="table" class="table" />
+      </div>
+
+      <div class="main_table_cont">
+        <img src="../png/pharaoh.png" alt="pharaoh" class="pharaoh" />
+        <img src="../png/table.png" alt="table" class="main_table" />
+        <img src="../png/shaker.png" alt="shaker" class="shaker" />
+        <div class="cup">
+          <img src="../png/empty_cup.png" alt="cup" />
+        </div>
+        <div class="button block">x0</div>
+      </div>
+
+      <div class="control">
+        <div class="bet_amount_cont block">
+          <span>BET</span>
+          <img src="../png/currency.png" alt="coin" />
+          <div class="bet_amount">500</div>
+        </div>
+        <div class="cashout block">CASH<br />OUT</div>
+        <div class="play block">
+          <img src="../png/play_arrow.png" alt="arrow" class="shift" />
+        </div>
+        <div class="balance_field block">
+          <span>COINS</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="../scripts/game.js" type="module"></script>
+  </body>
+</html>
